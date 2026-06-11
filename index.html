@@ -280,10 +280,10 @@ function esc(s){
 }
 
 Promise.all([
-  loadJSON('_data/profile.json'),
-  loadJSON('_data/research.json'),
-  loadJSON('_data/teaching.json'),
-  loadJSON('_data/creative.json')
+  loadJSON('profile.json'),
+  loadJSON('research.json'),
+  loadJSON('teaching.json'),
+  loadJSON('creative.json')
 ]).then(function(data){
   renderProfile(data[0]);
   renderResearch(data[1]);
