@@ -1,5 +1,5 @@
 {
-  "philosophy": "My research is guided by a commitment to understanding how sustainable fashion can be made accessible, desirable, and culturally resonant for consumers. I work at the intersection of consumer behavior, design science, and textile innovation — using mixed-methods approaches to examine how sustainability is perceived, communicated, and adopted across diverse populations. I am particularly interested in natural and heritage fibers, zero-waste design, and the visual language of sustainable apparel. My work bridges empirical consumer research and creative design scholarship, with the goal of producing knowledge that is both academically rigorous and practically meaningful for the fashion industry.",
+  "philosophy": "The global fashion and textile industry generates $2.4 trillion in economic activity while its unsustainable practices pose direct threats to environmental health and human well-being. My research advances sustainability in fashion through three interconnected areas: (1) promoting sustainable materials and eco-conscious production; (2) understanding consumption patterns and addressing the wearer's experience; and (3) developing sustainable apparel design techniques through zero-waste patternmaking and modular design.\n\nMy work bridges rigorous empirical research and creative scholarship. I use mixed-methods approaches — from quantitative consumer studies to experimental and qualitative designs — to examine how sustainability is perceived, communicated, and adopted. My creative scholarship explores eco-friendly materials and design techniques including zero-waste patterning, modular clothing, and textile repurposing. Looking ahead, I aim to investigate how aesthetic attributes communicate sustainability to consumers, expand zero-waste and modular design frameworks compatible with mass production, and explore innovative and emerging sustainable materials.",
   "publications": [
     {
       "title": "Navigating the current sustainability practices of the Bangladesh garment industry",
@@ -15,7 +15,7 @@
       "venue": "International Journal of Textile and Fashion Technology, 8(2), 1–8",
       "year": "2018",
       "type": "Journal Article",
-      "url": ""
+      "url": "https://doi.org/10.24247/ijtftapr20181"
     },
     {
       "title": "Fashioning the golden fiber as a sustainable apparel option: Consumer perceptions of jute mixed garments",
@@ -55,7 +55,7 @@
       "venue": "ITAA Annual Conference, St. Louis, MO",
       "year": "2025",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.21921"
     },
     {
       "title": "Oncologists' Perspectives on Mastectomy Surgical Bras: Current Wearability and Opportunities for Improvement",
@@ -63,7 +63,7 @@
       "venue": "ITAA Annual Conference, St. Louis, MO",
       "year": "2025",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.22013"
     },
     {
       "title": "Beyond Support: Understanding Wearability and Patient Needs in Post-Surgical Mastectomy Bras",
@@ -71,7 +71,7 @@
       "venue": "ITAA Annual Conference, St. Louis, MO",
       "year": "2025",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.22012"
     },
     {
       "title": "The power of transparency: Influencing consumer behavior in sustainable fashion",
@@ -87,7 +87,7 @@
       "venue": "ITAA Annual Conference, Long Beach, CA",
       "year": "2024",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.17293"
     },
     {
       "title": "Artificial Intelligence (AI) in Apparel Merchandising Professional Development Career Course: The Use Case of Quinncia Platform",
@@ -95,7 +95,7 @@
       "venue": "ITAA Annual Conference, Long Beach, CA",
       "year": "2024",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.18580"
     },
     {
       "title": "Drivers of Fashion Overconsumption: A Systematic Literature Review",
@@ -103,7 +103,7 @@
       "venue": "ITAA Annual Conference, Long Beach, CA",
       "year": "2024",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.18692"
     },
     {
       "title": "NICU Nurses' Perceptions of Skin-To-Skin Garment Design",
@@ -111,7 +111,7 @@
       "venue": "ITAA Annual Conference, Long Beach, CA",
       "year": "2024",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.18731"
     },
     {
       "title": "Will Consumers Buy Golden Fiber Couture?",
@@ -119,7 +119,7 @@
       "venue": "ITAA Annual Conference, Baltimore, MD",
       "year": "2023",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.17297"
     },
     {
       "title": "Exploring Current Sustainable Practices in the Bangladeshi Garments Industry",
@@ -127,7 +127,7 @@
       "venue": "ITAA Annual Conference, Baltimore, MD",
       "year": "2023",
       "type": "Conference Proceeding",
-      "url": ""
+      "url": "https://doi.org/10.31274/itaa.17407"
     },
     {
       "title": "Investigating Consumers' Purchase Intentions Toward Jute-Blended Clothing",

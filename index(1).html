@@ -153,6 +153,26 @@ h2.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw
   .home-title{font-size:.85rem !important}
   .pub-meta-t{font-size:.82rem !important}
   .affil-tag{font-size:.68rem !important}
+
+  /* ── HOME JUMP NAV ── */
+  .home-jump-nav{
+    display:flex;gap:0;flex-wrap:wrap;
+    border-bottom:1px solid var(--border);
+    margin-bottom:3rem;
+    background:var(--warm);
+    position:sticky;top:64px;z-index:100;
+  }
+  .home-jump-nav a{
+    font-family:'DM Sans',sans-serif;
+    font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--stone);text-decoration:none;
+    padding:.85rem 1.5rem;
+    border-bottom:2px solid transparent;
+    transition:color .2s,border-color .2s;
+    white-space:nowrap;
+  }
+  .home-jump-nav a:hover{color:var(--black);border-bottom-color:var(--gold)}
+  .home-jump-nav a.active{color:var(--black);border-bottom-color:var(--gold)}
 </style>
 </head>
 <body>
@@ -171,7 +191,15 @@ h2.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw
 <div class="page active" id="page-home">
  <div class="page-inner">
 
-  <div class="home-hero">
+  <nav class="home-jump-nav" id="home-jump-nav">
+   <a href="#home-top" onclick="homeJump(event,'home-top')">Profile</a>
+   <a href="#home-affiliations" onclick="homeJump(event,'home-affiliations')">Academic</a>
+   <a href="#home-prof-affiliations" onclick="homeJump(event,'home-prof-affiliations')">Professional</a>
+   <a href="#home-service" onclick="homeJump(event,'home-service')">Service</a>
+   <a href="#home-outreach" onclick="homeJump(event,'home-outreach')">Outreach</a>
+   <a href="#home-awards" onclick="homeJump(event,'home-awards')">Awards</a>
+  </nav>
+  <div class="home-hero" id="home-top">
    <div>
     <div class="home-name" id="h-name">Ummey Hani Barsha</div>
     <div class="home-title" id="h-title">Ph.D. Candidate, Consumer and Design Sciences · Auburn University</div>
@@ -194,7 +222,7 @@ h2.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw
   </div>
 
   <!-- AFFILIATIONS & SERVICE -->
-  <div id="affil-section">
+  <div id="affil-section" style="scroll-margin-top:120px">
 
    <div class="affil-section">
     <h3>Academic Affiliations</h3>
@@ -497,6 +525,27 @@ function handleEvalUpload(e){
   // reset so same files can be re-uploaded
   e.target.value = '';
 }
+
+function homeJump(e, id){
+  e.preventDefault();
+  var el = document.getElementById(id);
+  if(el) el.scrollIntoView({behavior:'smooth'});
+  document.querySelectorAll('.home-jump-nav a').forEach(function(a){a.classList.remove('active')});
+  e.currentTarget.classList.add('active');
+}
+
+// highlight active jump nav item on scroll
+window.addEventListener('scroll', function(){
+  var ids = ['home-top','home-affiliations','home-prof-affiliations','home-service','home-outreach','home-awards'];
+  var current = ids[0];
+  ids.forEach(function(id){
+    var el = document.getElementById(id);
+    if(el && el.getBoundingClientRect().top <= 140) current = id;
+  });
+  document.querySelectorAll('.home-jump-nav a').forEach(function(a){
+    a.classList.toggle('active', a.getAttribute('href') === '#'+current);
+  });
+}, {passive:true});
 </script>
 </body>
 </html>
