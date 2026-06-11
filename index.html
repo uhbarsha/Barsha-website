@@ -158,17 +158,19 @@ h2.sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.8rem,3.5vw
     <div class="home-title" id="h-title">Ph.D. Candidate, Consumer and Design Sciences · Auburn University</div>
     <p class="home-bio" id="h-bio">PhD candidate at Auburn University exploring the intersection of sustainable fashion design, consumer behavior, and textile innovation. Educator, researcher, and creative practitioner with roots in Dhaka, Bangladesh.</p>
     <div class="contact-cards">
-     <a class="contact-card" id="h-email-link" href="mailto:uzb0003@auburn.edu"><span class="contact-ico">✉</span><div><span class="contact-lbl">Email</span><span id="h-email">uzb0003@auburn.edu</span></div></a>
-     <a class="contact-card" id="h-phone-link" href="tel:+19178324216"><span class="contact-ico">✆</span><div><span class="contact-lbl">Phone</span><span id="h-phone">+1 917 832 4216</span></div></a>
+     <a class="contact-card" id="h-email-link" href="mailto:uzb0003@auburn.edu"><span class="contact-ico">✉</span><div><span class="contact-lbl">Academic Email</span><span id="h-email">uzb0003@auburn.edu</span></div></a>
+     <a class="contact-card" id="h-email2-link" href="mailto:uhbarsha@gmail.com"><span class="contact-ico">✉</span><div><span class="contact-lbl">Personal Email</span><span id="h-email2">uhbarsha@gmail.com</span></div></a>
      <a class="contact-card" id="h-linkedin-link" href="https://www.linkedin.com/in/ummeyhanibarsha/" target="_blank"><span class="contact-ico">in</span><div><span class="contact-lbl">LinkedIn</span><span id="h-linkedin">linkedin.com/in/ummeyhanibarsha</span></div></a>
     </div>
    </div>
    <div class="home-photo">
     <img id="h-photo" src="" alt="" style="display:none">
-    <div class="photo-ph" id="h-photo-ph">
+    <div class="photo-ph" id="h-photo-ph" onclick="document.getElementById('photo-upload').click()" style="cursor:pointer">
      <svg width="44" height="44" fill="none" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-     <span>Upload photo via Admin panel</span>
+     <span>Click to upload your photo</span>
+     <span style="font-size:.65rem;color:var(--muted)">JPG or PNG</span>
     </div>
+    <input type="file" id="photo-upload" accept="image/*" style="display:none" onchange="previewPhoto(event)">
    </div>
   </div>
 
@@ -299,16 +301,27 @@ function renderProfile(d){
   document.getElementById('h-title').textContent=d.title||'';
   document.getElementById('h-bio').textContent=d.bio||'';
   document.getElementById('h-email').textContent=d.email||'';
-  document.getElementById('h-phone').textContent=d.phone||'';
   document.getElementById('h-email-link').href='mailto:'+(d.email||'');
-  document.getElementById('h-phone-link').href='tel:'+(d.phone||'').replace(/\s/g,'');
+  if(d.email2){document.getElementById('h-email2').textContent=d.email2;document.getElementById('h-email2-link').href='mailto:'+d.email2;}
   var li=d.linkedin||'';
   document.getElementById('h-linkedin').textContent=li.replace('https://www.','').replace('https://','');
   document.getElementById('h-linkedin-link').href=li;
-  if(d.photo){
-    document.getElementById('h-photo').src=d.photo;
-    document.getElementById('h-photo').style.display='block';
-    document.getElementById('h-photo-ph').style.display='none';
+  // load photo from GitHub file if exists, fallback to profile.json
+  var photoSrc = d.photo || 'profile_photo';
+  if(photoSrc){
+    var img = document.getElementById('h-photo');
+    // try common extensions
+    var exts = ['profile_photo.jpg','profile_photo.jpeg','profile_photo.png','profile_photo'];
+    function tryLoad(i){
+      if(i>=exts.length) return;
+      img.src = exts[i];
+      img.onload = function(){
+        img.style.display='block';
+        document.getElementById('h-photo-ph').style.display='none';
+      };
+      img.onerror = function(){ tryLoad(i+1); };
+    }
+    tryLoad(0);
   }
   // academic affiliations
   var aa=d.academic_affiliations||[];
@@ -414,6 +427,17 @@ function renderCreative(d){
       +(w.url?'<a class="pub-link" href="'+esc(w.url)+'" target="_blank">View Project ↗</a>':'')
       +'</div></div>';
   }).join('');
+}
+
+function previewPhoto(e){
+  var file=e.target.files[0];if(!file)return;
+  var reader=new FileReader();
+  reader.onload=function(ev){
+    document.getElementById('h-photo').src=ev.target.result;
+    document.getElementById('h-photo').style.display='block';
+    document.getElementById('h-photo-ph').style.display='none';
+  };
+  reader.readAsDataURL(file);
 }
 </script>
 </body>
