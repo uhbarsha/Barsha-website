@@ -2,34 +2,47 @@
   "philosophy": "My teaching philosophy is grounded in Constructivism, Experiential Learning Theory, and Universal Design for Learning. I believe students learn best when they are active participants in their own education — constructing knowledge through hands-on projects, critical reflection, and collaborative inquiry. I strive to create inclusive, culturally responsive classrooms where every student sees themselves represented in the curriculum. My goal is not only to teach technical skills in apparel design and fashion studies, but to cultivate independent thinkers who can adapt, innovate, and lead in a rapidly evolving industry.",
   "experience": [
     {
-      "role": "Instructor of Record",
+      "role": "Instructor of Record (Full Responsibility)",
       "institution": "Auburn University — Consumer and Design Sciences",
       "period": "Fall 2025 – Present",
-      "courses": "CADS 3750: Product Development — Apparel Design (Lecture and Lab)",
+      "courses": "CADS 3750 – Product Development: Apparel Design (Lecture and Lab) · Avg 15 students",
       "responsibilities": [
         "Full course design and delivery for a junior-level product development course",
-        "Teaching advanced patternmaking, draping, grading, and production methods",
-        "Developing rubrics, assessments, and project briefs aligned with industry standards",
-        "Supervising laboratory sessions with industrial sewing and patternmaking equipment",
-        "Mentoring students on design development and portfolio preparation"
+        "Taught students the principles of advanced apparel production including jackets and contoured dresses, fabric analysis, body measurement techniques, and industry-standard flat patternmaking and draping",
+        "Mentored students in conceptualizing and completing original designs, developing problem-solving abilities, and cultivating professional skills necessary for the apparel industry",
+        "Developed rubrics, assessments, and project briefs aligned with industry standards",
+        "Supervised laboratory sessions with industrial sewing and patternmaking equipment"
       ]
     },
     {
-      "role": "Graduate Teaching Instructor",
-      "institution": "Auburn University",
-      "period": "Fall 2021 – Spring 2025",
-      "courses": "CADS 2800: Apparel Production Management Lab",
+      "role": "Graduate Teaching Instructor (Full Responsibility)",
+      "institution": "Auburn University — Consumer and Design Sciences",
+      "period": "Fall 2021 – Spring 2025 (except Fall 2022)",
+      "courses": "CADS 2800 – Apparel Production Management (Lab) · Avg 20 students",
       "responsibilities": [
         "Full responsibility for lab course covering apparel construction and production techniques",
-        "Teaching industrial sewing machine operation, serging, and quality control",
-        "Developing step-by-step instructional materials and skill demonstrations",
-        "Providing individualized feedback on student technique and progress",
-        "Managing lab inventory, equipment maintenance schedules, and safety protocols"
+        "Demonstrated operation of industrial and domestic sewing machines",
+        "Taught fundamental sewing techniques through guided sample construction projects (e.g., pajama pants and woven blouses)",
+        "Provided individualized feedback on students' sample constructions to support skill development and technical proficiency",
+        "Worked alongside and guided an undergraduate teaching assistant in supporting lab instruction"
+      ]
+    },
+    {
+      "role": "Teaching Assistant",
+      "institution": "Auburn University — Consumer and Design Sciences",
+      "period": "Spring 2026, Fall 2022",
+      "courses": "CADS 5750/6750 – Apparel Line Development (Spring 2026) · CADS 3150 – Professional Development for Apparel Merchandising Career · CADS 2760 – Visual Merchandising (Fall 2022)",
+      "responsibilities": [
+        "Supported patternmaking and garment construction processes by troubleshooting fit, construction logic, and production feasibility",
+        "Assisted students in preparing complete technical packages, ensuring clarity, industry-standard formatting, and production readiness",
+        "Reviewed and provided feedback on patterns, garments, tech packs, and presentations",
+        "Provided written, detailed feedback on students' resumes, cover letters, professional logos, business cards, and LinkedIn profiles",
+        "Maintained attendance records and graded assignments"
       ]
     },
     {
       "role": "Lecturer, Apparel Engineering",
-      "institution": "National Institute of Design, Dhaka",
+      "institution": "National Institute of Design, Dhaka, Bangladesh",
       "period": "Oct 2020 – Feb 2021",
       "courses": "Apparel Engineering (Undergraduate)",
       "responsibilities": [
@@ -39,27 +52,47 @@
       ]
     },
     {
-      "role": "Adjunct Faculty",
-      "institution": "Bangladesh University of Textiles, Dhaka",
+      "role": "Adjunct Faculty, Textile Fashion & Design",
+      "institution": "Bangladesh University of Textiles, Dhaka, Bangladesh",
       "period": "Jul 2017 – Mar 2020",
-      "courses": "Fashion Design, Textile Coloration, Draping, Portfolio Development",
+      "courses": "TFD 102 Fashion Design I, TFD 103 Fashion History, TFD 301/302 Textile Coloration, TFD 308 Fashion Draping, TFD 312 Professional Studio Practice, TFD 408 Portfolio Development, FD 473 Sociology of Fashion, FD 475 Fashion Accessories, YE 211/212 Textile Testing and Quality Control · Avg 30 students",
       "responsibilities": [
-        "Taught multiple undergraduate courses with average 30 students per class",
-        "Developed new course content for fashion design and portfolio development",
+        "Taught multiple undergraduate courses across fashion design, textile coloration, draping, and portfolio development",
+        "Developed course materials, set examination questions, checked answer scripts, and graded students",
         "Supervised student design projects and final collection presentations",
-        "Provided mentorship for students pursuing careers in fashion industry"
+        "Provided mentorship for students pursuing careers in the fashion industry"
       ]
     },
     {
-      "role": "Adjunct Faculty",
-      "institution": "Government College of Applied Human Science, University of Dhaka",
+      "role": "Visiting Faculty, Clothing and Textile / Art and Creative Studies",
+      "institution": "Government College of Applied Human Science, University of Dhaka, Bangladesh",
       "period": "Oct 2018 – May 2021",
-      "courses": "Advanced Fashion Design, Fashion Forecasting, Trend Analysis",
+      "courses": "CT 404/411 Advanced Fashion Design, CT 504 Fashion Forecasting and Trend Analysis, ACS 502 Fashion Designing · Avg 100 students",
       "responsibilities": [
-        "Taught courses to classes of approximately 100 students",
-        "Revised and developed new curriculum for the fashion department",
-        "Designed semester-long projects integrating trend research and original design",
-        "Coordinated with department chair on curriculum alignment and outcomes assessment"
+        "Taught courses to large undergraduate classes across two departments",
+        "Developed course materials, set questions, checked answer scripts, and graded answers",
+        "Revised and developed new curriculum for the department",
+        "Designed semester-long projects integrating trend research and original design"
+      ]
+    },
+    {
+      "role": "Visiting Faculty, Clothing and Textile",
+      "institution": "National College of Home Economics, University of Dhaka, Bangladesh",
+      "period": "Oct 2018 – May 2021",
+      "courses": "Clothing and Textile (Undergraduate)",
+      "responsibilities": [
+        "Delivered lectures and practical sessions in clothing and textile to undergraduate students",
+        "Developed and evaluated course assignments and examinations"
+      ]
+    },
+    {
+      "role": "Visiting Faculty, Clothing and Textile",
+      "institution": "Akij College of Home Economics, University of Dhaka, Bangladesh",
+      "period": "Oct 2018 – May 2021",
+      "courses": "Clothing and Textile (Undergraduate)",
+      "responsibilities": [
+        "Delivered lectures and practical sessions in clothing and textile to undergraduate students",
+        "Developed and evaluated course assignments and examinations"
       ]
     }
   ],

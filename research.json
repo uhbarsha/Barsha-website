@@ -1,12 +1,141 @@
 {
-  "philosophy": "My research is guided by a commitment to understanding how sustainable fashion can be made accessible, desirable, and culturally resonant for consumers. I work at the intersection of consumer behavior, design science, and textile innovation — using mixed-methods approaches to examine how sustainability is perceived, communicated, and adopted across diverse populations. I am particularly interested in natural and heritage fibers, zero-waste design, and the visual language of sustainable apparel.",
+  "philosophy": "My research is guided by a commitment to understanding how sustainable fashion can be made accessible, desirable, and culturally resonant for consumers. I work at the intersection of consumer behavior, design science, and textile innovation — using mixed-methods approaches to examine how sustainability is perceived, communicated, and adopted across diverse populations. I am particularly interested in natural and heritage fibers, zero-waste design, and the visual language of sustainable apparel. My work bridges empirical consumer research and creative design scholarship, with the goal of producing knowledge that is both academically rigorous and practically meaningful for the fashion industry.",
   "publications": [
-    { "title": "Navigating the current sustainability practices of the Bangladesh garment industry", "authors": "Barsha, U. H., Vilches, S., & Lee, Y.-A.", "venue": "Sustainability", "year": "2026", "type": "Journal Article", "url": "" },
-    { "title": "Investigation on the physical properties of jute cotton (Jutton) blended fabric", "authors": "Barsha, U. H., Uddin, M., Hasan, M., & Chowdhury, S.", "venue": "International Journal of Textile and Fashion Technology, 8(2)", "year": "2018", "type": "Journal Article", "url": "" },
-    { "title": "Fashioning the golden fiber as a sustainable apparel option: Consumer perceptions of jute mixed garments", "authors": "Barsha, U. H. & Sadachar, A.", "venue": "International Journal of Fashion Design, Technology and Education", "year": "", "type": "Under Review", "url": "" },
-    { "title": "Performance apparel seam analysis: Comparative study of Merrow infused ActiveSeam, overlock, and flat seam", "authors": "Michaelson, D. & Barsha, U. H.", "venue": "Research Journal of Textile and Apparel", "year": "", "type": "Under Review", "url": "" },
-    { "title": "The power of transparency: Influencing consumer behavior in sustainable fashion", "authors": "Barsha, U. H. & Chattaraman, V.", "venue": "", "year": "", "type": "In Progress", "url": "" },
-    { "title": "Improving Sustainability in Fashion Design Through Generative AI: Tools and Applications", "authors": "Barsha, U. H.", "venue": "ITAA Annual Conference, St. Louis, MO", "year": "2025", "type": "Conference Proceeding", "url": "" },
-    { "title": "Mindful but still consuming? Unpacking the Paradox of Sustainable Fashion Consumption", "authors": "Barsha, U. H.", "venue": "ACRA Annual Conference, Cal Poly Pomona", "year": "2026", "type": "Conference Proceeding", "url": "" }
+    {
+      "title": "Navigating the current sustainability practices of the Bangladesh garment industry",
+      "authors": "Barsha, U. H., Vilches, S., & Lee, Y.-A.",
+      "venue": "Sustainability, 18(7), 3234",
+      "year": "2026",
+      "type": "Journal Article",
+      "url": "https://doi.org/10.3390/su18073234"
+    },
+    {
+      "title": "Investigation on the physical properties of jute cotton (Jutton) blended fabric",
+      "authors": "Barsha, U. H., Uddin, M., Hasan, M., & Chowdhury, S.",
+      "venue": "International Journal of Textile and Fashion Technology, 8(2), 1–8",
+      "year": "2018",
+      "type": "Journal Article",
+      "url": ""
+    },
+    {
+      "title": "Fashioning the golden fiber as a sustainable apparel option: Consumer perceptions of jute mixed garments",
+      "authors": "Barsha, U. H., & Sadachar, A.",
+      "venue": "International Journal of Fashion Design, Technology and Education (IJFDTE)",
+      "year": "",
+      "type": "Under Review",
+      "url": ""
+    },
+    {
+      "title": "Performance apparel seam analysis: Comparative study of Merrow infused ActiveSeam, overlock, and flat seam",
+      "authors": "Michaelson, D., & Barsha, U. H.",
+      "venue": "Research Journal of Textile and Apparel",
+      "year": "",
+      "type": "Under Review",
+      "url": ""
+    },
+    {
+      "title": "The power of transparency: Influencing consumer behavior in sustainable fashion",
+      "authors": "Barsha, U. H., & Chattaraman, V.",
+      "venue": "",
+      "year": "",
+      "type": "In Progress",
+      "url": ""
+    },
+    {
+      "title": "Mindful but still consuming? Unpacking the Paradox of Sustainable Fashion Consumption",
+      "authors": "Rasu, M. N. S., & Barsha, U. H.",
+      "venue": "ACRA 2026 Annual Conference, California State Polytechnic University, Pomona",
+      "year": "2026",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Improving Sustainability in Fashion Design Through Generative AI: Tools and Applications",
+      "authors": "Barsha, U. H., Ahmed, F. B., Wu, J., & Khan, B. U.",
+      "venue": "ITAA Annual Conference, St. Louis, MO",
+      "year": "2025",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Oncologists' Perspectives on Mastectomy Surgical Bras: Current Wearability and Opportunities for Improvement",
+      "authors": "Michaelson, D., & Barsha, U. H.",
+      "venue": "ITAA Annual Conference, St. Louis, MO",
+      "year": "2025",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Beyond Support: Understanding Wearability and Patient Needs in Post-Surgical Mastectomy Bras",
+      "authors": "Michaelson, D., & Barsha, U. H.",
+      "venue": "ITAA Annual Conference, St. Louis, MO",
+      "year": "2025",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "The power of transparency: Influencing consumer behavior in sustainable fashion",
+      "authors": "Barsha, U. H., & Chattaraman, V.",
+      "venue": "ACRA Annual Conference Proceedings, pp. 70–71",
+      "year": "2025",
+      "type": "Conference Proceeding",
+      "url": "https://cdn.ymaws.com/acraretail.org/resource/resmgr/proceeding/2025_proceeding_final02.pdf"
+    },
+    {
+      "title": "Unveiling Women's Satisfaction and Needs of Full Coverage Swimwear",
+      "authors": "Barsha, U. H., & Michaelson, D.",
+      "venue": "ITAA Annual Conference, Long Beach, CA",
+      "year": "2024",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Artificial Intelligence (AI) in Apparel Merchandising Professional Development Career Course: The Use Case of Quinncia Platform",
+      "authors": "Sadachar, A., & Barsha, U. H.",
+      "venue": "ITAA Annual Conference, Long Beach, CA",
+      "year": "2024",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Drivers of Fashion Overconsumption: A Systematic Literature Review",
+      "authors": "Sheikh, M. H., Barsha, U. H., & Islam, M.",
+      "venue": "ITAA Annual Conference, Long Beach, CA",
+      "year": "2024",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "NICU Nurses' Perceptions of Skin-To-Skin Garment Design",
+      "authors": "Michaelson, D., Rolling, V., & Barsha, U. H.",
+      "venue": "ITAA Annual Conference, Long Beach, CA",
+      "year": "2024",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Will Consumers Buy Golden Fiber Couture?",
+      "authors": "Barsha, U. H., & Sadachar, A.",
+      "venue": "ITAA Annual Conference, Baltimore, MD",
+      "year": "2023",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Exploring Current Sustainable Practices in the Bangladeshi Garments Industry",
+      "authors": "Barsha, U. H., & Lee, Y.-A.",
+      "venue": "ITAA Annual Conference, Baltimore, MD",
+      "year": "2023",
+      "type": "Conference Proceeding",
+      "url": ""
+    },
+    {
+      "title": "Investigating Consumers' Purchase Intentions Toward Jute-Blended Clothing",
+      "authors": "Barsha, U. H., & Sadachar, A.",
+      "venue": "Kappa Omicron Nu (KON) Annual Conclave",
+      "year": "2023",
+      "type": "Conference Proceeding",
+      "url": ""
+    }
   ]
 }
