@@ -1,0 +1,32 @@
+{
+  "name": "Ummey Hani Barsha",
+  "title": "Ph.D. Candidate, Consumer and Design Sciences · Auburn University",
+  "bio": "PhD candidate at Auburn University exploring the intersection of sustainable fashion design, consumer behavior, and textile innovation. Educator, researcher, and creative practitioner with roots in Dhaka, Bangladesh.",
+  "email": "uzb0003@auburn.edu",
+  "phone": "+1 917 832 4216",
+  "linkedin": "https://www.linkedin.com/in/ummeyhanibarsha/",
+  "photo": "",
+  "academic_affiliations": [
+    { "institution": "Auburn University", "department": "Consumer and Design Sciences", "role": "Ph.D. Candidate" }
+  ],
+  "professional_affiliations": [
+    { "organization": "International Textile and Apparel Association (ITAA)", "membership": "Student Member", "year": "2021" },
+    { "organization": "Kappa Omicron Nu Honor Society", "membership": "Member", "year": "2022" },
+    { "organization": "American Association of Family and Consumer Sciences (AAFCS)", "membership": "Student Member", "year": "2023" }
+  ],
+  "service": [
+    { "role": "Manuscript Reviewer", "organization": "International Textile and Apparel Association (ITAA)", "years": "2024–Present", "type": "Reviewer" },
+    { "role": "Session Chair", "organization": "ITAA Annual Conference", "years": "2025", "type": "Session Chair" }
+  ],
+  "outreach": [
+    { "activity": "Mentor, Undergraduate Research Program", "organization": "Auburn University College of Human Sciences", "years": "2023–Present", "description": "Mentored undergraduate students on ITAA design exhibition submissions including abstract writing, design development, and presentation." }
+  ],
+  "awards": [
+    { "name": "Maude Gilchrist Fellowship", "organization": "Kappa Omicron Nu", "year": "2025–2026" },
+    { "name": "Best Graduate Paper Runner-Up", "organization": "ACRA Conference", "year": "2025" },
+    { "name": "Spirit of Sustainability Award", "organization": "Auburn University", "year": "2025" },
+    { "name": "KON Conclave Outstanding Presenter", "organization": "Kappa Omicron Nu", "year": "2023" },
+    { "name": "College of Human Sciences Graduate Research Fellowship", "organization": "Auburn University", "year": "2023–2026" },
+    { "name": "Undergraduate Scholarship", "organization": "Bangladesh University of Textiles", "year": "2012–2016" }
+  ]
+}

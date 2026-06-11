@@ -1,0 +1,125 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+
+  - name: "profile"
+    label: "Home"
+    files:
+      - name: "profile"
+        label: "Profile, Contact & Affiliations"
+        file: "_data/profile.json"
+        fields:
+          - { label: "Full Name", name: "name", widget: "string" }
+          - { label: "Title / Position", name: "title", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "text" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+          - { label: "Headshot Photo", name: "photo", widget: "image", required: false }
+          - label: "Academic Affiliations"
+            name: "academic_affiliations"
+            widget: "list"
+            fields:
+              - { label: "Institution", name: "institution", widget: "string" }
+              - { label: "Department", name: "department", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+          - label: "Professional Affiliations"
+            name: "professional_affiliations"
+            widget: "list"
+            fields:
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Membership Type", name: "membership", widget: "string", hint: "e.g. Member, Fellow, Student Member" }
+              - { label: "Year Joined", name: "year", widget: "string" }
+          - label: "Service"
+            name: "service"
+            widget: "list"
+            fields:
+              - { label: "Role / Position", name: "role", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Year(s)", name: "years", widget: "string" }
+              - { label: "Type", name: "type", widget: "select", options: ["Committee", "Editorial Board", "Reviewer", "Session Chair", "Other"] }
+          - label: "Outreach & Community"
+            name: "outreach"
+            widget: "list"
+            fields:
+              - { label: "Activity", name: "activity", widget: "string" }
+              - { label: "Organization / Community", name: "organization", widget: "string" }
+              - { label: "Year(s)", name: "years", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+          - label: "Awards & Honors"
+            name: "awards"
+            widget: "list"
+            fields:
+              - { label: "Award Name", name: "name", widget: "string" }
+              - { label: "Organization", name: "organization", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+
+  - name: "research"
+    label: "Research"
+    files:
+      - name: "research"
+        label: "Research Philosophy & Publications"
+        file: "_data/research.json"
+        fields:
+          - { label: "Research Philosophy", name: "philosophy", widget: "text" }
+          - label: "Publications"
+            name: "publications"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Journal / Venue", name: "venue", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Type", name: "type", widget: "select", options: ["Journal Article", "Conference Proceeding", "Under Review", "In Progress"] }
+              - { label: "URL / DOI", name: "url", widget: "string", required: false }
+
+  - name: "teaching"
+    label: "Teaching"
+    files:
+      - name: "teaching"
+        label: "Teaching Philosophy & Experience"
+        file: "_data/teaching.json"
+        fields:
+          - { label: "Teaching Philosophy", name: "philosophy", widget: "text" }
+          - label: "Teaching Experience"
+            name: "experience"
+            widget: "list"
+            fields:
+              - { label: "Role / Title", name: "role", widget: "string" }
+              - { label: "Institution", name: "institution", widget: "string" }
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Courses Taught", name: "courses", widget: "string" }
+              - label: "Responsibilities"
+                name: "responsibilities"
+                widget: "list"
+                field: { label: "Responsibility", name: "item", widget: "string" }
+          - label: "Teaching Evaluations"
+            name: "evaluations"
+            widget: "list"
+            fields:
+              - { label: "Course / Semester Label", name: "label", widget: "string" }
+              - { label: "Evaluation Image", name: "image", widget: "image" }
+              - { label: "Notes", name: "notes", widget: "string", required: false }
+
+  - name: "creative"
+    label: "Creative"
+    files:
+      - name: "creative"
+        label: "Creative Works"
+        file: "_data/creative.json"
+        fields:
+          - label: "Exhibited Works"
+            name: "works"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Venue / Exhibition", name: "venue", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "URL", name: "url", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image", required: false }
